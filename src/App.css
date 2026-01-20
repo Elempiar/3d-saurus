@@ -1,0 +1,75 @@
+.viewer-page {
+  position: relative;
+  min-height: 100dvh;
+  overflow: hidden;
+  color: #e8eef5;
+}
+
+.viewer-frame {
+  width: 100%;
+  height: 100vh;
+  background:
+    radial-gradient(
+      circle at 30% 30%,
+      rgba(255, 255, 255, 0.08),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 70% 70%,
+      rgba(124, 193, 255, 0.12),
+      transparent 45%
+    );
+  --poster-color: #0b1624;
+}
+
+.viewer-frame::part(default-progress-bar) {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.viewer-frame::part(default-progress-bar-fill) {
+  background: linear-gradient(90deg, #6bdcff, #7cffb2);
+}
+
+.hud {
+  position: absolute;
+  inset: 2.5rem auto auto 2.5rem;
+  max-width: 380px;
+  padding: 1.25rem 1.35rem;
+  background: rgba(9, 16, 26, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.eyebrow {
+  margin: 0 0 0.35rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: #7cffb2;
+}
+
+.hud h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.lede {
+  margin: 0;
+  color: #c6d5e6;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .hud {
+    inset: auto 1.25rem 1.25rem 1.25rem;
+    max-width: none;
+  }
+
+  .hud h1 {
+    font-size: 1.6rem;
+  }
+}
