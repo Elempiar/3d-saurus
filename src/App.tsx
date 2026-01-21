@@ -1,7 +1,7 @@
 import "@google/model-viewer";
 import "./App.css";
 
-const MODEL_SRC = "https://modelviewer.dev/shared-assets/models/Astronaut.glb";
+const MODEL_SRC = "https://ofcf7mq0bmhf3l4k.public.blob.vercel-storage.com/Fort_Alpha_Aula_V1-Ybi5fcgolUy34uubI9AGc1MDxqwC1d.glb";
 const POSTER_SRC =
   "https://modelviewer.dev/shared-assets/models/Astronaut.webp";
 
