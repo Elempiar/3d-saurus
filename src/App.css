@@ -5,6 +5,43 @@
   color: #e8eef5;
 }
 
+.model-picker {
+  position: absolute;
+  inset: 1rem auto auto 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 0.85rem;
+  background: rgba(9, 16, 26, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.35);
+  z-index: 2;
+}
+
+.model-picker label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
+
+.model-picker select {
+  background: #0f1b2b;
+  color: #e8eef5;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.model-picker select:focus {
+  border-color: #7cffb2;
+  box-shadow: 0 0 0 3px rgba(124, 255, 178, 0.15);
+}
+
 .viewer-frame {
   width: 100%;
   height: 100vh;
