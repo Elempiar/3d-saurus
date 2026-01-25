@@ -13,18 +13,25 @@ type ModelOption = {
 
 const MODEL_OPTIONS: ModelOption[] = [
   {
-    id: "fort-alpha",
-    name: "Fort Alpha Aula",
-    src: "https://ofcf7mq0bmhf3l4k.public.blob.vercel-storage.com/Fort_Alpha_Aula_V1-Ybi5fcgolUy34uubI9AGc1MDxqwC1d.glb",
+    id: "fort-alpha-aula-v1",
+    name: "Fort Alpha Aula v1",
+    src: "https://ofcf7mq0bmhf3l4k.public.blob.vercel-storage.com/Aula_25_V1-qkj8GWusZJlYhVPM8AhDuUIBY9aFSp.glb",
     poster: "https://modelviewer.dev/assets/poster-astronaut.png",
     alt: "Fort Alpha Aula architectural model",
   },
   {
-    id: "robot-expressive",
-    name: "Robot",
-    src: "https://modelviewer.dev/shared-assets/models/RobotExpressive.glb",
-    poster: "https://modelviewer.dev/shared-assets/models/RobotExpressive.webp",
-    alt: "Expressive robot character model",
+    id: "aula-25-v2",
+    name: "Fort Alpha Aula v2",
+    src: "https://ofcf7mq0bmhf3l4k.public.blob.vercel-storage.com/Aula_25_V2-RQ6J8gcYstW0nGMkZG1HHFknJ2ZpGd.glb",
+    poster: "",
+    alt: "Fort Alpha Aula architectural model",
+  },
+  {
+    id: "chair-model",
+    name: "Stoel",
+    src: "https://ofcf7mq0bmhf3l4k.public.blob.vercel-storage.com/Chair_25_V1-i3fawO4RlPyqDDYTLSU1Pe67OiSQXk.glb",
+    poster: "",
+    alt: "Chair model",
   },
 ];
 
