@@ -17,14 +17,14 @@ const MODEL_OPTIONS: ModelOption[] = [
     name: "Fort Alpha Aula v1",
     src: "https://ofcf7mq0bmhf3l4k.public.blob.vercel-storage.com/Aula_25_V1-qkj8GWusZJlYhVPM8AhDuUIBY9aFSp.glb",
     poster: "https://modelviewer.dev/assets/poster-astronaut.png",
-    alt: "Fort Alpha Aula architectural model",
+    alt: "Fort Alpha Aula model",
   },
   {
-    id: "aula-25-v2",
+    id: "fort-alpha-aula-v2",
     name: "Fort Alpha Aula v2",
     src: "https://ofcf7mq0bmhf3l4k.public.blob.vercel-storage.com/Aula_25_V2-RQ6J8gcYstW0nGMkZG1HHFknJ2ZpGd.glb",
     poster: "",
-    alt: "Fort Alpha Aula architectural model",
+    alt: "Fort Alpha Aula model",
   },
   {
     id: "chair-model",
